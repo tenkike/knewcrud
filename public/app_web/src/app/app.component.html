@@ -1,0 +1,6 @@
+<span>Welcome</span>
+<ul>
+  <li *ngFor="let item of dataMenu; let i= index">
+    <a [href]="item">{{ item | json }}</a>
+  </li>
+</ul>
